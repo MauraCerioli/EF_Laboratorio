@@ -8,9 +8,9 @@ namespace BugTrackingUI {
     class Program {
         static void Main(string[] args) {
             const string adminPw = "la qualunque basta";
-            const string connectionString = @"Data Source=ARYA;Initial Catalog=Puffo;Integrated Security=SSPI; MultipleActiveResultSets=True";
+            const string connectionString = @"Data Source=ARYA;Initial Catalog=EFLabo;Integrated Security=SSPI; MultipleActiveResultSets=True";
 
-            
+            BugTrackingFactory.InitializeBugTracking(connectionString,adminPw);
             Console.ReadLine();
         }
     }
