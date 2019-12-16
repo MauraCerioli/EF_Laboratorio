@@ -5,6 +5,10 @@ VisualStudioVersion = 16.0.29424.173
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BugTrackingUI", "BugTrackingUI\BugTrackingUI.csproj", "{8C1DD6DA-F1FD-4485-A046-2338375653C4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BugTrackingData", "BugTrackingData\BugTrackingData.csproj", "{B2EDCE1E-4B36-4E09-9962-C27C8CA9A9E3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BugTrackingLogic", "BugTrackingLogic\BugTrackingLogic.csproj", "{038D2892-C690-4D45-81B9-F6972775B97B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{8C1DD6DA-F1FD-4485-A046-2338375653C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8C1DD6DA-F1FD-4485-A046-2338375653C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8C1DD6DA-F1FD-4485-A046-2338375653C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2EDCE1E-4B36-4E09-9962-C27C8CA9A9E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2EDCE1E-4B36-4E09-9962-C27C8CA9A9E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2EDCE1E-4B36-4E09-9962-C27C8CA9A9E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2EDCE1E-4B36-4E09-9962-C27C8CA9A9E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{038D2892-C690-4D45-81B9-F6972775B97B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{038D2892-C690-4D45-81B9-F6972775B97B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{038D2892-C690-4D45-81B9-F6972775B97B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{038D2892-C690-4D45-81B9-F6972775B97B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
